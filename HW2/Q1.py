@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import matplotlib.pyplot as plt
 
-torch.manual_seed(0)
+torch.manual_seed(6)
 
 # Baseline ordinary MLP
 # Symmetric model: h(x) = 1/2(g(x)+g(-x))
