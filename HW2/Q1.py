@@ -105,7 +105,7 @@ print("Experiment 2: only train on x>=0")
 run(target_fn=f1, one_sided=True)
 
 print("Experiment 3: another even target")
-run(target_fn=f2, one_sided=True)
+run(target_fn=f2, one_sided=False)
 
 print("Experiment 4: another even target")
-run(target_fn=f2, one_sided=False)
+run(target_fn=f2, one_sided=True)
